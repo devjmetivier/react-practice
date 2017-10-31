@@ -1,8 +1,8 @@
 /* eslint react/no-did-mount-set-state: 0 */
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import { Poster } from './Movie';
 import Overdrive from 'react-overdrive';
+import { Poster } from './Movie';
 
 const POSTER_PATH = 'https://image.tmdb.org/t/p/w154';
 const BACKDROP_PATH = 'https://image.tmdb.org/t/p/w1280';
